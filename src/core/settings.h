@@ -82,6 +82,7 @@ struct Values {
     std::array<std::string, NativeAnalog::NumAnalogs> analogs;
     std::string motion_device;
     std::string touch_device;
+    float input_threshold;
 
     // Core
     bool use_cpu_jit;
